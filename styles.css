@@ -1,0 +1,63 @@
+/* # = id, . = class*/
+html {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+#list_area {
+  max-width: 1086px;
+}
+#list_area td {
+  font-size: 18px;
+}
+#header_area {
+  max-width: 1186px;
+}
+#header_items {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+#header_items .link {
+  margin: 10px;
+  font-size: 16px;
+}
+.push {
+  margin-left:auto;
+}
+#banner_area {
+  max-width: 1600px;
+}
+#banner {
+  display:block;
+}
+.embed {
+  padding-left: 36px;
+}
+.date {
+  font-size: 18px;
+  vertical-align: middle;
+  color:darkgray;
+  font-weight:500;
+}
+.centered {
+  margin: auto;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.gif {
+  max-width: 300px;
+  margin: 10px;
+  margin-left: 0px;
+  height: auto;
+  border: 1px solid black;
+}
+.screenshot {
+  max-width: 250px;
+  aspect-ratio: 63 / 50;
+  max-height: auto;
+  margin: 3px;
+  border: 1px solid black;
+}
