@@ -1,6 +1,18 @@
 /* # = id, . = class*/
 html {
-  font-family: 'Merriweather Sans', sans-serif;
+  /*font-family: 'Raleway', sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
+  line-height: 150%;
+  font-size: 18px;
+  color:rgb(50, 50, 50);
+  margin-left: 60px;
+}
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  color:black;
+}
+a {
+  color: black;
 }
 #list_area {
   max-width: 1086px;
@@ -12,6 +24,7 @@ html {
   max-width: 1186px;
 }
 #header_items {
+  background-image: linear-gradient(to right, #aff4ff , #ffdf7f);
   font-size: 24px;
   display: flex;
   align-items: center;
@@ -30,6 +43,12 @@ html {
 #banner {
   display:block;
 }
+#name {
+  font-size: 56px;
+}
+#footer_area {
+  margin-top: 0px;
+}
 .embed {
   padding-left: 36px;
 }
@@ -46,6 +65,7 @@ html {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 14px;
 }
 .gif {
   max-width: 300px;
@@ -60,4 +80,29 @@ html {
   max-height: auto;
   margin: 3px;
   border: 1px solid black;
+}
+#header_line{
+  margin-left:20px;
+}
+#flair {
+  position:absolute;
+}
+#flair div {
+  position: relative;
+  left: -90px;
+  top: -120px;
+}
+#band {
+  margin-top: 18px;
+  width: 90px;
+  height: 208px;
+  background-color: #aff4ff;
+}
+#tri {
+  width: 0;
+  height: 0;
+  border-top: 30px solid #aff4ff;
+  border-bottom: 30px solid transparent;
+  border-left: 45px solid #aff4ff;
+  border-right: 45px solid transparent;
 }
